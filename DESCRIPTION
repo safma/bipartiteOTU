@@ -1,0 +1,15 @@
+Package: bipartiteOTU
+Type: Package
+Title: Bipartitní grafy pro analýzu mikrobiomu
+Version: 0.1.0
+Author: Marcela Šafárová
+Maintainer: Marcela Šafárová <marcelasafarova30@gmail.com>
+Description: Balíček obsahuje sadu funkcí pro zpracování OTU tabulek a jejich analýzu pomocí bipartitních grafů.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+  biom (>= 0.3.12),
+  igraph (>= 1.0.1),
+  methods (>= 3.3.0)
+RoxygenNote: 6.0.1
